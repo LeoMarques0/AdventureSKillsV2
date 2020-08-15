@@ -154,5 +154,10 @@ public class Launcher : MonoBehaviourPunCallbacks
         if (PhotonNetwork.IsMasterClient)
             PhotonNetwork.LoadLevel("Lobby");
     }
+
+    public override void OnCreateRoomFailed(short returnCode, string message)
+    {
+        
+    }
     #endregion
 }

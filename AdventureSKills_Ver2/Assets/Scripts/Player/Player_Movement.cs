@@ -26,7 +26,7 @@ public class Player_Movement : Interactable
     private PlayerStates previousState = new PlayerStates();
 
     [SerializeField]
-    private GameObject[] projectile = null;   
+    private GameObject[] projectile = null;
     private Animator anim;
 
     [HideInInspector]
@@ -488,7 +488,7 @@ public class Player_Movement : Interactable
     public void AnimationManager()
     {
         anim.SetInteger("playerState", (int)state);
-        anim.SetFloat("hor", Mathf.Abs(inputs.hor));
+        //anim.SetFloat("hor", Mathf.Abs(inputs.hor));
     }
 
     public override void OnHit(Vector2 attackerPos, float dmg)

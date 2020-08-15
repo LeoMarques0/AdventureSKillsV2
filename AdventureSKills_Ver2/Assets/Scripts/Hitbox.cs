@@ -13,7 +13,7 @@ public class Hitbox : MonoBehaviour
 
     public virtual void Awake()
     {
-        root = transform.root;
+        root = transform.parent;
         exceptions = transform.root.gameObject.GetComponentsInChildren<Transform>();
     }
 
