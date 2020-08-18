@@ -33,9 +33,10 @@ public class RoomManager : MonoBehaviourPun
     {
         for (int x = 0; x < PhotonNetwork.CurrentRoom.MaxPlayers; x++)
         {
+            print(PhotonNetwork.LocalPlayer.ActorNumber);
             if (PhotonNetwork.CurrentRoom.CustomProperties["Player" + x] == null || !PlayerIsOnRoom((string)PhotonNetwork.CurrentRoom.CustomProperties["Player" + x]))
-            {
-                string playerID = PhotonNetwork.LocalPlayer.UserId;
+            {         
+                string playerID = PhotonNetwork.LocalPlayer.ActorNumber.ToString();
                 Hashtable hash = new Hashtable();
 
                 hash.Add("Player" + x, playerID);
@@ -62,7 +63,7 @@ public class RoomManager : MonoBehaviourPun
     {
         foreach(Player p in PhotonNetwork.PlayerList)
         {
-            if (p.UserId == id)
+            if (p.ActorNumber == int.Parse(id))
                 return true;
         }
         return false;
