@@ -15,21 +15,18 @@ public enum ConnectAction
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
-    #region Serialized Fields
-    [SerializeField]
-    private Text maxPlayersText = null;
-    #endregion
     #region Public Fields
     public byte maxPlayers = 4;
+    public string roomID = "";
     public bool isPublic;
 
     public static Launcher singleton;
     #endregion
     #region Private Fields
-    ConnectAction connectAction = new ConnectAction();
+    private ConnectAction connectAction = new ConnectAction();
 
-    string gameVersion = "1";
-    string roomID = "";
+    private string gameVersion = "1";
+    private bool getInRoom = false;
     #endregion
 
     #region MonoBehaviour Callbacks
@@ -45,18 +42,13 @@ public class Launcher : MonoBehaviourPunCallbacks
 
         DontDestroyOnLoad(gameObject);
     }
-
-    private void Update()
-    {
-        if(SceneManager.GetActiveScene().buildIndex == 0 && maxPlayersText != null)
-            maxPlayersText.text = maxPlayers.ToString();
-    }
     #endregion
 
     #region Public Methods
 
     public void FindRandomRoom()
     {
+        print("Find Random Room");
         roomID = string.Empty;
         connectAction = ConnectAction.RANDOM;
 
@@ -65,6 +57,7 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public void FindRoom(string _roomID)
     {
+        print("Find Room");
         if(_roomID == string.Empty || _roomID.Length < 5)
         {
             print("O ID " + _roomID + " é invalido");
@@ -80,14 +73,22 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public void CreateRoom()
     {
-        roomID = GenerateID.NumberOnly(5);
+        print("Create Room");
+        if(roomID == "")
+            roomID = GenerateID.NumberOnly(5);
         connectAction = ConnectAction.CREATE;
 
         Connect();
     }
 
+    public void CallLeaveRoom()
+    {
+        PhotonNetwork.LeaveRoom();
+    }
+
     public void Connect()
     {
+        getInRoom = true;
 
         if (PhotonNetwork.IsConnected)
         {//Se está conectado entra em uma sala aleatóriamente
@@ -127,7 +128,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
         Debug.Log("Conectado no servidor Photon");
-        ConnectToRoom();  
+        if(getInRoom)
+            ConnectToRoom();  
     }
 
     public override void OnDisconnected(DisconnectCause cause)
@@ -151,6 +153,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         Debug.Log("Conectado na Sala: " + PhotonNetwork.CurrentRoom);
 
+        getInRoom = false;
         if (PhotonNetwork.IsMasterClient)
             PhotonNetwork.LoadLevel("Lobby");
     }
@@ -158,6 +161,11 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
         
+    }
+
+    public override void OnLeftRoom()
+    {
+        PhotonNetwork.LoadLevel("Menu");
     }
     #endregion
 }

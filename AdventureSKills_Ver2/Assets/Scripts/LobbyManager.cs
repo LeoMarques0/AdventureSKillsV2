@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 public class LobbyManager : MonoBehaviourPun
 {
@@ -15,6 +16,9 @@ public class LobbyManager : MonoBehaviourPun
     private bool isChoosingClass = true;
     private bool readyCountDown;
     private Carousel myCarousel;
+
+    [SerializeField]
+    private GameObject exitConfirmation = null;
 
     // Start is called before the first frame update
     void Start()
@@ -149,6 +153,24 @@ public class LobbyManager : MonoBehaviourPun
             yield return new WaitForSeconds(1);
         }
         if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.CurrentRoom.IsOpen = false;
             PhotonNetwork.LoadLevel("Level");
+        }
+    }
+
+    public void ExitButton()
+    {
+        exitConfirmation.SetActive(true);
+    }
+
+    public void DeconfirmExit()
+    {
+        exitConfirmation.SetActive(false);
+    }
+
+    public void ConfirmExit()
+    {
+        Launcher.singleton.CallLeaveRoom();
     }
 }
