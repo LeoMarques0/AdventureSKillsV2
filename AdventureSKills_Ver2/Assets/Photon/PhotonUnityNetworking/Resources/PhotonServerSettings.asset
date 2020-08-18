@@ -37,8 +37,8 @@ MonoBehaviour:
   - DestroyRpc
   - DestroySpaceship
   - Fire
-  - ReadyUp
   - RespawnSpaceship
+  - ReadyUp
   - StartChangeColumn
   DisableAutoOpenWizard: 1
   ShowSettings: 0
