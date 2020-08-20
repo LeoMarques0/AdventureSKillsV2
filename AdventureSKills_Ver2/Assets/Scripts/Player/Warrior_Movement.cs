@@ -20,6 +20,11 @@ public class Warrior_Movement : Player_Movement
     public override void Update()
     {
         base.Update();
+        ShieldRecorver();
+    }
+
+    public void ShieldRecorver()
+    {
         if (shieldHealth < 100 && state != PlayerStates.SKILL && state != PlayerStates.AIRSKILL)
         {
             shieldHealth += shieldRecoverSpd * Time.deltaTime;

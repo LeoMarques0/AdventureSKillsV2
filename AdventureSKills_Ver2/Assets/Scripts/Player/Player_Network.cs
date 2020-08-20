@@ -14,9 +14,6 @@ public class Player_Network : MonoBehaviour, IPunObservable
     private PhotonView photonView;
     private Player_Movement movement;
 
-    private bool updated = false;
-    private List<bool> updatedList = new List<bool>();
-
     private int stateSent;
     private float lastXVelocitySent, lastYVelocitySent;
     private float lastXPosSent, lastYPosSent;
@@ -26,6 +23,11 @@ public class Player_Network : MonoBehaviour, IPunObservable
     private float lastXVelocityReceived, lastYVelocityReceived;
     private float lastXPosReceived, lastYPosReceived;
     private float lastYRotReceived;
+
+    [HideInInspector]
+    public bool updated = false;
+    [HideInInspector]
+    public List<bool> updatedList = new List<bool>();
 
     [HideInInspector]
     public string stringToSend = "";
@@ -56,7 +58,7 @@ public class Player_Network : MonoBehaviour, IPunObservable
         movement = GetComponent<Player_Movement>();
     }
 
-    private void Start()
+    public virtual void Start()
     {
         lastXPosSent = transform.position.x;
         lastYPosSent = transform.position.y;
@@ -70,7 +72,7 @@ public class Player_Network : MonoBehaviour, IPunObservable
         transform.eulerAngles = new Vector2(transform.eulerAngles.x, lastYRotSent);
     }
 
-    private void Update()
+    public virtual void Update()
     {
         if (!photonView.IsMine)
         {
@@ -404,6 +406,8 @@ public class Player_Network : MonoBehaviour, IPunObservable
 
     public virtual void UpdatePlayer()
     {
+        updatedList = new List<bool>();
+
         if (sharePosition)
             updatedList.Add(UpdatePosition());
         if (shareRotation)
