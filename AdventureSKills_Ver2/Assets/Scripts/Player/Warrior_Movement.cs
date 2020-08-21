@@ -11,8 +11,9 @@ public class Warrior_Movement : Player_Movement
 
     private float x, shieldMaxSize;
 
-    private void Awake()
+    public override void Awake()
     {
+        base.Awake();
         x = 1 - shieldMinimumSize;
         shieldMaxSize = shield.transform.localScale.x;
     }

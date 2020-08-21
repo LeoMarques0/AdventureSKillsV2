@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 907825582}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Projectiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 989492738}
   - component: {fileID: 989492737}
   - component: {fileID: 989492736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 1914304059}
   - component: {fileID: 1914304058}
   - component: {fileID: 1914304062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 1946850006}
   - component: {fileID: 1946850005}
   - component: {fileID: 1946850004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,9 +494,9 @@ GameObject:
   - component: {fileID: 3043936305345716372}
   - component: {fileID: 8883562944382388610}
   - component: {fileID: 4401892771163705515}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ArcherOnline
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa5688f5c6e94247ad815f15f01a126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 6359717114156181365, guid: c755247bac14d4249ac3085cb08843f8,
+    type: 3}
   health: 10
+  maxHealth: 0
   state: 0
   projectile: []
   inputs: {fileID: 0}
@@ -681,6 +684,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb28eda7836b7948ae31c6c0abaeb17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movement: {fileID: 0}
+  updated: 0
+  updatedList: 
   stringToSend: 
   stringReceived: 
   lerpTransformTime: 20
@@ -716,7 +722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8084810746736709327}
   - component: {fileID: 2397594421827793694}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7091261832728519265}
   - component: {fileID: 7524019518279521119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +887,7 @@ GameObject:
   - component: {fileID: 358015803727693106}
   - component: {fileID: 4916816624798392714}
   - component: {fileID: 1339089800}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

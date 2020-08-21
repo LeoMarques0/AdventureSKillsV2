@@ -12,7 +12,8 @@ public class Player_Network : MonoBehaviour, IPunObservable
     const string yRotKey = "YR";
 
     private PhotonView photonView;
-    private Player_Movement movement;
+    [HideInInspector]
+    public Player_Movement movement;
 
     private int stateSent;
     private float lastXVelocitySent, lastYVelocitySent;

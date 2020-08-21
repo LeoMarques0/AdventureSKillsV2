@@ -798,6 +798,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb28eda7836b7948ae31c6c0abaeb17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movement: {fileID: 0}
+  updated: 0
+  updatedList: 
   stringToSend: 
   stringReceived: 
   lerpTransformTime: 20

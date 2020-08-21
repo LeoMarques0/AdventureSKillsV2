@@ -155,7 +155,7 @@ public class LobbyManager : MonoBehaviourPun
         if (PhotonNetwork.IsMasterClient)
         {
             PhotonNetwork.CurrentRoom.IsOpen = false;
-            PhotonNetwork.LoadLevel("Level");
+            PhotonNetwork.LoadLevel("Stage");
         }
     }
 

@@ -2388,7 +2388,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 13
   m_Sprite: {fileID: 710952571814410846, guid: 479f8be1a8fd99147b4c347da043ebba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2573,13 +2573,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 611333af36c36824cb89e64ccc87c6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 6359717114156181365, guid: c755247bac14d4249ac3085cb08843f8,
+    type: 3}
   health: 10
+  maxHealth: 0
   state: 0
   projectile: []
   inputs: {fileID: 0}
   _transform: {fileID: 0}
   rb: {fileID: 0}
-  sprites: []
+  sprites:
+  - {fileID: 3350737977740518515}
+  - {fileID: 890681839204824566}
+  - {fileID: 2104375717492465777}
+  - {fileID: 3275941572202028127}
+  - {fileID: 8096302401994722043}
+  - {fileID: 4929012578344698920}
+  - {fileID: 7529535500939858892}
+  - {fileID: 5800932415042848317}
+  - {fileID: 396867037562371970}
+  - {fileID: 7622953934321266340}
+  - {fileID: 8332351828732475389}
+  - {fileID: 5494004791654087197}
+  - {fileID: 3517272641010778013}
+  - {fileID: 4627650940216840155}
+  - {fileID: 7556011554935760676}
+  - {fileID: 6953844151149009354}
+  - {fileID: 3701005166606034144}
+  - {fileID: 4827097209049607578}
+  - {fileID: 4290672956788566022}
   groundCheckSize: {x: 0.45, y: 0.1}
   groundCheckOffset: {x: -0.0375, y: 0.25}
   groundMask:

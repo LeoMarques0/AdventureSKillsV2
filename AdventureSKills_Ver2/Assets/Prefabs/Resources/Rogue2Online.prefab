@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9106088067813725765}
   - component: {fileID: 890681839204824566}
   - component: {fileID: 2744273885193314466}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ArmL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4675941200840810531}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 3090158422399716508}
   - component: {fileID: 4827097209049607578}
   - component: {fileID: 1301734109575192076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LegL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8007937264437396773}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 1632824523338833958}
   - component: {fileID: 6953844151149009354}
   - component: {fileID: 1888716979396836410}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HatBack2 Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9042286172077402712}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 2687804211027898055}
   - component: {fileID: 3275941572202028127}
   - component: {fileID: 8044549568230656107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 401052392822234536}
   - component: {fileID: 3350737977740518515}
   - component: {fileID: 9037416576003588375}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Adaga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +626,7 @@ GameObject:
   - component: {fileID: 1830913107732814610}
   - component: {fileID: 7529535500939858892}
   - component: {fileID: 4229011341364433165}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Copiar de Adaga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -727,7 +727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5359310618319545765}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -757,7 +757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7460253423358685724}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 792654325933181038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -819,7 +819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5076712864624935637}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1054082138924149758}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +885,7 @@ GameObject:
   - component: {fileID: 6942086703295907376}
   - component: {fileID: 3701005166606034144}
   - component: {fileID: 4589626394177274820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -986,7 +986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3385904385777875788}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1017,7 +1017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3506792240719516339}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1050,7 +1050,7 @@ GameObject:
   - component: {fileID: 7507573719872961584}
   - component: {fileID: 7622953934321266340}
   - component: {fileID: 1327994396832761528}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeArmR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 1706072954787966201}
   - component: {fileID: 5494004791654087197}
   - component: {fileID: 1276536081190677314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeLegR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1258,7 +1258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6425451245677102320}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightDagger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 4446118286621645240}
   - component: {fileID: 3517272641010778013}
   - component: {fileID: 2105780854235803137}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hair Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1392,7 +1392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3397913091749881287}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1423,7 +1423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4202157032863047806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hood2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1455,7 +1455,7 @@ GameObject:
   - component: {fileID: 94914502494012240}
   - component: {fileID: 5800932415042848317}
   - component: {fileID: 277809180202405516}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1514,7 +1514,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 13
   m_Sprite: {fileID: -4831631458179639182, guid: 479f8be1a8fd99147b4c347da043ebba,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1558,7 +1558,7 @@ GameObject:
   - component: {fileID: 8648963757212680249}
   - component: {fileID: 7556011554935760676}
   - component: {fileID: 7860738836607991185}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HatBack1 Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1659,7 +1659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3315839202774218355}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1690,7 +1690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1006870965184596122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hood1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1722,7 +1722,7 @@ GameObject:
   - component: {fileID: 7485405831501907538}
   - component: {fileID: 4290672956788566022}
   - component: {fileID: 7345304398048660411}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LegR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,7 +1825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2190237237943748904}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,7 +1856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7386284197693996723}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1886,7 +1886,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 717338911046098754}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1919,7 +1919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8307722954928245896}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftDagger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1951,7 +1951,7 @@ GameObject:
   - component: {fileID: 5782900724282622977}
   - component: {fileID: 396867037562371970}
   - component: {fileID: 5533661438971094542}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeArmL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2056,7 +2056,7 @@ GameObject:
   - component: {fileID: 4998304624682078212}
   - component: {fileID: 8332351828732475389}
   - component: {fileID: 2033780350766925655}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeLegL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2161,7 +2161,7 @@ GameObject:
   - component: {fileID: 2048856505422156020}
   - component: {fileID: 4929012578344698920}
   - component: {fileID: 2544539011639230515}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Capeback Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2264,7 +2264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 941479367577898598}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2294,7 +2294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1863753320384634778}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2329,7 +2329,7 @@ GameObject:
   - component: {fileID: 1258908143968498021}
   - component: {fileID: 4627650940216840155}
   - component: {fileID: 1075349995067268156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hat Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2388,7 +2388,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 13
   m_Sprite: {fileID: 710952571814410846, guid: 479f8be1a8fd99147b4c347da043ebba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2436,10 +2436,10 @@ GameObject:
   - component: {fileID: -1779093205529730060}
   - component: {fileID: -3317834537483527968}
   - component: {fileID: -8403090534987994683}
-  - component: {fileID: -8639240872995321634}
-  m_Layer: 0
+  - component: {fileID: 7195591828512189979}
+  m_Layer: 10
   m_Name: Rogue2Online
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2576,13 +2576,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 611333af36c36824cb89e64ccc87c6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 6359717114156181365, guid: c755247bac14d4249ac3085cb08843f8,
+    type: 3}
   health: 10
+  maxHealth: 0
   state: 0
   projectile: []
   inputs: {fileID: 0}
   _transform: {fileID: 0}
   rb: {fileID: 0}
-  sprites: []
+  sprites:
+  - {fileID: 3350737977740518515}
+  - {fileID: 890681839204824566}
+  - {fileID: 2104375717492465777}
+  - {fileID: 3275941572202028127}
+  - {fileID: 8096302401994722043}
+  - {fileID: 4929012578344698920}
+  - {fileID: 7529535500939858892}
+  - {fileID: 5800932415042848317}
+  - {fileID: 396867037562371970}
+  - {fileID: 7622953934321266340}
+  - {fileID: 8332351828732475389}
+  - {fileID: 5494004791654087197}
+  - {fileID: 3517272641010778013}
+  - {fileID: 4627650940216840155}
+  - {fileID: 7556011554935760676}
+  - {fileID: 6953844151149009354}
+  - {fileID: 3701005166606034144}
+  - {fileID: 4827097209049607578}
+  - {fileID: 4290672956788566022}
   groundCheckSize: {x: 0.45, y: 0.1}
   groundCheckOffset: {x: -0.0375, y: 0.25}
   groundMask:
@@ -2618,10 +2640,10 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 0
+  Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 0}
+  - {fileID: 7195591828512189979}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -2640,7 +2662,7 @@ MonoBehaviour:
   scriptsToIgnore:
   - {fileID: -2160135668018260583}
   - {fileID: -1779093205529730060}
---- !u!114 &-8639240872995321634
+--- !u!114 &7195591828512189979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2649,9 +2671,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8563573636386811918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eb28eda7836b7948ae31c6c0abaeb17, type: 3}
+  m_Script: {fileID: 11500000, guid: c586aec1c2bb52849953070f31e54f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movement: {fileID: 0}
+  updated: 0
+  updatedList: 
   stringToSend: 
   stringReceived: 
   lerpTransformTime: 20
@@ -2673,7 +2698,7 @@ GameObject:
   - component: {fileID: 8536514057168893218}
   - component: {fileID: 2104375717492465777}
   - component: {fileID: 7559661556483787659}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ArmR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2777,7 +2802,7 @@ GameObject:
   - component: {fileID: 2871444955425840810}
   - component: {fileID: 8096302401994722043}
   - component: {fileID: 3077957728343844788}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Capa
   m_TagString: Untagged
   m_Icon: {fileID: 0}

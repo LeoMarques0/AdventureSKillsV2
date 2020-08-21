@@ -2448,7 +2448,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e02745033c9bb0b4799a29a3a5c636cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 6359717114156181365, guid: c755247bac14d4249ac3085cb08843f8,
+    type: 3}
   health: 10
+  maxHealth: 0
   state: 0
   projectile: []
   inputs: {fileID: 0}

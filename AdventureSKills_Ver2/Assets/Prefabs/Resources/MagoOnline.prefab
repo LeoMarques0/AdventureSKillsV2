@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8646407718933708227}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4322050803998291049}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 420712700919491089}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 2924522031991896091}
   - component: {fileID: 785736816884718450}
   - component: {fileID: 2999795663881966529}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1857157224457597570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3562543579381564295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 385855623902572807}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 6733957831394048397}
   - component: {fileID: 8673544122116508658}
   - component: {fileID: 700055516158553487}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeLegR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4482080601674476933}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 7428673378305160928}
   - component: {fileID: 2426061340439105423}
   - component: {fileID: 8912326262105321415}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ArmL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9109209997163527916}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 7923925669483886613}
   - component: {fileID: 1681628843466596859}
   - component: {fileID: 1191893555538521609}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeLegL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +678,7 @@ GameObject:
   - component: {fileID: 6640119376372393139}
   - component: {fileID: 7209954063670677613}
   - component: {fileID: 5233195925142428815}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LegR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 8128860480694252003}
   - component: {fileID: 8692074718442091486}
   - component: {fileID: 8381479846342998606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camada 74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -886,7 +886,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2284705535774330614}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -917,7 +917,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1798213978050152755}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Projectiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -950,7 +950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4511602880244635506}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -980,7 +980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6017038492217084568}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1013,7 +1013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2394860097825103167}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hat_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1043,7 +1043,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6863358589579225271}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 5554082569479453583}
   - component: {fileID: 2292271040427122999}
   - component: {fileID: 4700719071776470960}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeArmR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1180,7 +1180,7 @@ GameObject:
   - component: {fileID: 2387668942921895386}
   - component: {fileID: 3388746392073777872}
   - component: {fileID: 6710096441700704941}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ArmR Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1282,7 +1282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 715202068141060950}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1314,7 +1314,7 @@ GameObject:
   - component: {fileID: 1797697714267686271}
   - component: {fileID: 1959997050784856126}
   - component: {fileID: 7980853404744242379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camada 20 Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1417,7 +1417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 932872322666814620}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hair2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 6200619047535025629}
   - component: {fileID: 8007904256477646470}
   - component: {fileID: 1906768242436753126}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LegL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,7 +1553,7 @@ GameObject:
   - component: {fileID: 2628057860871609146}
   - component: {fileID: 6943214125662662990}
   - component: {fileID: 3035865988237264458}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camada 29 Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 5647529894601742834}
   - component: {fileID: 257991002676037817}
   - component: {fileID: 5432990970023137854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camada 49(colado) Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1761,7 +1761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1276254023442015333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hat_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1793,7 +1793,7 @@ GameObject:
   - component: {fileID: 6614209225791472249}
   - component: {fileID: 7181206245940723338}
   - component: {fileID: 3732635886707267403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ForeArmL Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1896,7 +1896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7980609609318763462}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1927,7 +1927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5991962045021633907}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1962,7 +1962,7 @@ GameObject:
   - component: {fileID: 199763525023728851}
   - component: {fileID: 727344995501410525}
   - component: {fileID: 6444966079828668769}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2106,7 +2106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3207543719954182115}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2137,7 +2137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 327488402136566126}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 1508952611887301276}
   - component: {fileID: 2864199037940456496}
   - component: {fileID: 3709162935067364504}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2271,7 +2271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1516524198587146110}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2315,9 +2315,9 @@ GameObject:
   - component: {fileID: 9212279086258201175}
   - component: {fileID: 320869751155494526}
   - component: {fileID: 5952601523755388922}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MagoOnline
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2451,7 +2451,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e02745033c9bb0b4799a29a3a5c636cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 6359717114156181365, guid: c755247bac14d4249ac3085cb08843f8,
+    type: 3}
   health: 10
+  maxHealth: 0
   state: 0
   projectile: []
   inputs: {fileID: 0}
@@ -2536,6 +2539,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb28eda7836b7948ae31c6c0abaeb17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movement: {fileID: 0}
+  updated: 0
+  updatedList: 
   stringToSend: 
   stringReceived: 
   lerpTransformTime: 20
@@ -2559,7 +2565,7 @@ GameObject:
   - component: {fileID: 4808708773349911638}
   - component: {fileID: 8772187967577404880}
   - component: {fileID: 2555766387092659736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2707,7 +2713,7 @@ GameObject:
   - component: {fileID: 5555171292446847983}
   - component: {fileID: 5615582533729020626}
   - component: {fileID: 2548235872699976201}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2851,7 +2857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 984861423772574683}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hair3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2883,7 +2889,7 @@ GameObject:
   - component: {fileID: 4473055851719316630}
   - component: {fileID: 3642363712828356706}
   - component: {fileID: 6016405524937440761}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Camada 75 Mescladas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
