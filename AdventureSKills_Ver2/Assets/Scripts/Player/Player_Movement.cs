@@ -57,11 +57,15 @@ public class Player_Movement : Interactable
     [HideInInspector]
     public float gravity;
 
+    private int attackIndex = -1;
+
     private Vector2 velocityAux;
+    private Coroutine lastCoroutine = null;
 
     // Start is called before the first frame update
     void Start()
     {
+
         _transform = GetComponent<Transform>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -94,13 +98,11 @@ public class Player_Movement : Interactable
             case PlayerStates.IDLE:
 
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, idleFriction * Time.deltaTime), rb.velocity.y);
-                Attack();
 
                 break;
             case PlayerStates.RUN:
 
                 Move(groundAcceleration);
-                Attack();
 
                 break;
 
@@ -110,7 +112,6 @@ public class Player_Movement : Interactable
                     rb.velocity += Vector2.up * gravity * highFallMultiplier * Time.deltaTime;
 
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, idleFriction * Time.deltaTime), rb.velocity.y);
-                Attack();
 
                 break;
 
@@ -120,13 +121,10 @@ public class Player_Movement : Interactable
                     rb.velocity += Vector2.up * gravity * highFallMultiplier * Time.deltaTime;
 
                 Move(airAcceleration);
-                Attack();
 
                 break;
 
             case PlayerStates.AIR:
-
-                Attack();
 
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, idleFriction * Time.deltaTime), rb.velocity.y);
 
@@ -136,7 +134,6 @@ public class Player_Movement : Interactable
 
             case PlayerStates.AIRMOVE:
 
-                Attack();
                 Move(airAcceleration);
 
                 rb.velocity += Vector2.up * gravity * fallMultiplier * Time.deltaTime;
@@ -223,6 +220,7 @@ public class Player_Movement : Interactable
                 if (!isGrounded)
                     state = PlayerStates.AIR;
 
+                Attack();
                 Jump();
                 Skill();
 
@@ -236,6 +234,7 @@ public class Player_Movement : Interactable
                 if (!isGrounded)
                     state = PlayerStates.AIRMOVE;
 
+                Attack();
                 Jump();
                 Skill();
 
@@ -252,6 +251,7 @@ public class Player_Movement : Interactable
                 if (inputs.hor != 0)
                     state = PlayerStates.JUMPMOVE;
 
+                Attack();
                 Skill();
 
                 break;
@@ -267,6 +267,7 @@ public class Player_Movement : Interactable
                 if (inputs.hor == 0)
                     state = PlayerStates.JUMP;
 
+                Attack();
                 Skill();
 
                 break;
@@ -279,6 +280,7 @@ public class Player_Movement : Interactable
                 if (inputs.hor != 0)
                     state = PlayerStates.AIRMOVE;
 
+                Attack();
                 Jump();
                 Skill();
 
@@ -292,6 +294,7 @@ public class Player_Movement : Interactable
                 if (inputs.hor == 0)
                     state = PlayerStates.AIR;
 
+                Attack();
                 Jump();
                 Skill();
 
@@ -414,11 +417,24 @@ public class Player_Movement : Interactable
 
         if (inputs.GetButton("ATTACK"))
         {
+            if(lastCoroutine != null)
+                StopCoroutine(lastCoroutine);
+            lastCoroutine = StartCoroutine(ComboTimer());
+
             if (isGrounded)
+            {
+                attackIndex = attackIndex != 0 ? 0 : 1;
                 state = PlayerStates.ATTACK;
+            }
             else
                 state = PlayerStates.AIRATTACK;
         }
+    }
+
+    IEnumerator ComboTimer()
+    {
+        yield return new WaitForSeconds(1.5f);
+        attackIndex = -1;
     }
 
     public void EndAttack()
@@ -488,6 +504,7 @@ public class Player_Movement : Interactable
     public void AnimationManager()
     {
         anim.SetInteger("playerState", (int)state);
+        anim.SetInteger("attackIndex", attackIndex);
         //anim.SetFloat("hor", Mathf.Abs(inputs.hor));
     }
 

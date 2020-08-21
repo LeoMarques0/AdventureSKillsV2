@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 6359717114156181364}
   - component: {fileID: 6359717114156181353}
   - component: {fileID: 6359717114156181354}
-  - component: {fileID: 6359717114156181355}
+  - component: {fileID: 4337803105614018873}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -178,7 +178,7 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
---- !u!114 &6359717114156181355
+--- !u!114 &4337803105614018873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,12 +187,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6359717114156181365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dba1a179e553446f0a08606778f559f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 3db7a9e255df04a48b65e03defac3657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenOffset: {x: 0, y: 30, z: 0}
-  playerNameText: {fileID: 6359717114688799129}
-  playerHealthSlider: {fileID: 6359717114156181353}
+  nameText: {fileID: 6359717114688799129}
+  healthSlider: {fileID: 6359717114156181353}
+  heightOffset: 0
+  healthOffset: {x: 0, y: 3}
 --- !u!1 &6359717114213074174
 GameObject:
   m_ObjectHideFlags: 0

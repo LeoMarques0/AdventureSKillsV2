@@ -6,9 +6,9 @@ using UnityEngine;
 public class Interactable : MonoBehaviourPun
 {
     [SerializeField]
-    private GameObject healthUI;
+    private GameObject healthUI = null;
 
-    public float health = 10, maxHealth;
+    public float health = 10, maxHealth = 10;
 
     public virtual void Awake()
     {
@@ -28,7 +28,7 @@ public class Interactable : MonoBehaviourPun
             return;
 
         Canvas canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
-        PlayerUI healthInstance = Instantiate(healthUI, canvas.transform).GetComponent<PlayerUI>();
+        Health_UI healthInstance = Instantiate(healthUI, canvas.transform).GetComponent<Health_UI>();
 
         healthInstance.SetParent(transform, photonView);
     }
