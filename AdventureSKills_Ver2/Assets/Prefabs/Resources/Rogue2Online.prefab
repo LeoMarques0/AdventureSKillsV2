@@ -2582,6 +2582,8 @@ MonoBehaviour:
   maxHealth: 10
   state: 0
   projectile: []
+  pauseMenu: {fileID: 5584425527501619065, guid: 66cbd09117a843242858cc4745c0f803,
+    type: 3}
   inputs: {fileID: 0}
   _transform: {fileID: 0}
   rb: {fileID: 0}

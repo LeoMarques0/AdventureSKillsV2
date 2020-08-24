@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public enum PlayerStates
 {
@@ -27,6 +27,9 @@ public class Player_Movement : Interactable
 
     [SerializeField]
     private GameObject[] projectile = null;
+    [SerializeField]
+    private GameObject pauseMenu = null;
+
     private Animator anim;
 
     [HideInInspector]
@@ -76,6 +79,19 @@ public class Player_Movement : Interactable
         previousState = PlayerStates.IDLE;
 
         sprites = GetComponentsInChildren<SpriteRenderer>();
+    }
+
+    public override void SetUI()
+    {
+        base.SetUI();
+
+        if (pauseMenu == null || SceneManager.GetActiveScene().name == "Lobby")
+            return;
+
+        Canvas canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+        PauseManager pauseInstance = Instantiate(pauseMenu, canvas.transform).GetComponent<PauseManager>();
+
+        pauseInstance.SetParent(transform, photonView);
     }
 
     // Update is called once per frame

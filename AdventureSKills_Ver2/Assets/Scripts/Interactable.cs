@@ -14,7 +14,7 @@ public class Interactable : MonoBehaviourPun
     {
         health = maxHealth;
 
-        SetHealthUI();
+        SetUI();
     }
 
     public virtual void OnHit(Vector2 attackerPos, float dmg)
@@ -22,7 +22,7 @@ public class Interactable : MonoBehaviourPun
         health -= dmg;
     }
 
-    private void SetHealthUI()
+    public virtual void SetUI()
     {
         if (healthUI == null)
             return;

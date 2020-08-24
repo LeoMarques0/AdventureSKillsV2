@@ -36,7 +36,6 @@ public class Health_UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("Update");
         if (main == null)
         {
             Destroy(gameObject);
@@ -69,7 +68,6 @@ public class Health_UI : MonoBehaviour
 
     public void SetParent(Transform _main, PhotonView _mainNetwork)
     {
-        print("SetParent");
         main = _main.GetComponent<Interactable>();
 
         if (_mainNetwork != null && _main.tag == "Player")

@@ -715,12 +715,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3e70208c74440549bab88716c088bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 0}
   health: 10
+  maxHealth: 10
   state: 0
   projectile:
   - {fileID: 2325107178870034285}
   - {fileID: 8506947523887303454}
   - {fileID: 2591983244335935846}
+  pauseMenu: {fileID: 0}
   inputs: {fileID: 0}
   _transform: {fileID: 0}
   rb: {fileID: 0}
