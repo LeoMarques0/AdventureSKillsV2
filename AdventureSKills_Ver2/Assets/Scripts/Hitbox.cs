@@ -7,14 +7,14 @@ public class Hitbox : MonoBehaviour
 
     public float dmg = 3f;
 
-    [HideInInspector]
-    public Transform root;
+    public Transform root = null;
+
     private Transform[] exceptions;
 
     public virtual void Awake()
     {
         root = transform.parent;
-        exceptions = transform.root.gameObject.GetComponentsInChildren<Transform>();
+        exceptions = root.gameObject.GetComponentsInChildren<Transform>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

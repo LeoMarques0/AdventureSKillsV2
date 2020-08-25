@@ -16,7 +16,7 @@ public class StageManager : MonoBehaviour
     void Awake()
     {
         int playerIndex = 1;
-        PhotonNetwork.Instantiate("PlayerOnline", playersSpawns[playerIndex].position, Quaternion.identity);
+        PhotonNetwork.Instantiate(GameManager.singleton.myCharacter.name, playersSpawns[playerIndex].position, Quaternion.identity);
     }
 
     // Update is called once per frame
