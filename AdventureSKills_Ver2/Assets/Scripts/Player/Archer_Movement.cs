@@ -43,4 +43,10 @@ public class Archer_Movement : Player_Movement
         if (isGrounded && !canDoubleJump && (state == PlayerStates.IDLE || state == PlayerStates.RUN))
             canDoubleJump = true;
     }
+
+    public override void AnimationManager()
+    {
+        base.AnimationManager();
+        anim.SetBool("DoubleJump", !canDoubleJump);
+    }
 }

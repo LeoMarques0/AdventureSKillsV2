@@ -24,6 +24,11 @@ public class Projectile : Hitbox
         StartCoroutine(DisableProjectile(disableTimer));
     }
 
+    private void Update()
+    {
+        transform.right = rb.velocity;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         collision.TryGetComponent(out Interactable hit);

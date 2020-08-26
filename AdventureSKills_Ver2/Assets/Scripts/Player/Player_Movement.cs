@@ -30,7 +30,8 @@ public class Player_Movement : Interactable
     [SerializeField]
     private GameObject pauseMenu = null;
 
-    private Animator anim;
+    [HideInInspector]
+    public Animator anim;
 
     [HideInInspector]
     public Player_Inputs inputs;
@@ -164,7 +165,6 @@ public class Player_Movement : Interactable
                 {
                     float animTime = anim.GetCurrentAnimatorStateInfo(0).normalizedTime;
                     state = PlayerStates.AIRATTACK;
-                    anim.Play("Player_AirAttack", 0, animTime);
                 }
 
                 break;
@@ -177,7 +177,6 @@ public class Player_Movement : Interactable
                     {
                         float animTime = anim.GetCurrentAnimatorStateInfo(0).normalizedTime;
                         state = PlayerStates.ATTACK;
-                        anim.Play("Player_Attack", 0, animTime);
                     }
                     else if (inputs.hor == 0)
                         state = PlayerStates.IDLE;
@@ -517,7 +516,7 @@ public class Player_Movement : Interactable
         }
     }
 
-    public void AnimationManager()
+    public virtual void AnimationManager()
     {
         anim.SetInteger("playerState", (int)state);
         anim.SetInteger("attackIndex", attackIndex);
